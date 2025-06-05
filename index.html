@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Squat Posture Checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Squat Form Checker</h1>
+  <select id="exerciseSelect" onchange="changeExercise()">
+  <option value="squat">Squat</option>
+  <option value="plank">Plank</option>
+  <option value="pushup">Push-Up</option>
+</select>
+
+  <div class="video-wrapper">
+    <video id="webcam" autoplay playsinline></video>
+    <canvas id="output"></canvas>
+  </div>
+  <button onclick="resetReps()">Reset Reps</button>
+
+
+  <!-- MediaPipe libraries -->
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/pose"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils"></script>
+
+<!-- Your script -->
+<script src="script.js"></script>
+
+</body>
+</html>
