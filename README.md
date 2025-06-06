@@ -5,11 +5,11 @@ A real-time posture tracking web app that uses your webcam and **MediaPipe** to 
 ## Features
 
 - Real-time pose detection using **MediaPipe**
-- 🏋️‍♀️ Squat detection with 90° knee angle check and back alignment
-- 💪 Push-up counter that only counts reps with correct form
-- ⏱️ Plank timer (30–45 seconds) with stability feedback
-- 🔊 Optional voice feedback using the Web Speech API
-- 🧠 100% client-side — your data stays on your device
+- Squat detection with 90° knee angle check and back alignment
+- Push-up counter that only counts reps with correct form
+- Plank timer (30–45 seconds) with stability feedback
+- Optional voice feedback using the Web Speech API
+- 100% client-side — your data stays on your device
 
 ## Tech Stack
 
